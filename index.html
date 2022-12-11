@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Chunky Monkey Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Chunky Monkey</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <br></br>
+    <section class="hero" id="about">
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/005/162/104/original/cartoon-monkey-hanging-and-holds-banana-in-tree-branch-free-vector.jpg"
+        alt="John Doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Hello!</h2>
+        <p class="bio-text">
+          I am a UI/UX student excited to showcase my projects!
+        </p>
+      </div>
+    </section>
+
+    <br></br>
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="development.png"
+            alt="development"
+            loading="lazy"
+            class="project-pic"
+            width="225"
+            height="150"
+          />
+          <h3 class="project-title">World Cup Flags Shop</h3>
+          <p class="project-details">
+            The goal of this application was to provide an easy shopping experience 
+            for fans of counries participating in the World Cup.
+            Users were able to filter or sort for their favorite team.
+          </p>
+          <a href="https://chunkymonkey323.github.io/secondtry/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="iterative.png"
+            alt="iterative"
+            loading="lazy"
+            class="project-pic"
+            width="225"
+            height="150"
+          />
+          <h3 class="project-title">Yhangry</h3>
+          <p class="project-details">
+            Yhangry is a private chef marketplace, where you can book a chef. Albeit an existing startup, the
+            goal of this application was to design a mobile app where users
+            could book chefs/meals. 
+          </p>
+          <a href="https://www.figma.com/proto/u5MQq8VDdRvqgLzq8Cm8FE/yhangry?node-id=346%3A752&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="userexperience.png"
+            alt="User Experience"
+            loading="lazy"
+            class="project-pic"
+            width="225"
+            height="150"
+          />
+          <h3 class="project-title">CVS Interface EXP</h3>
+          <p class="project-details">
+            Users of the CVS self checkout were interviewed
+            about their experience to create personas and storyboards. This helped
+            unravel the different ways users approached it.
+          </p>
+          <a href="https://chunkymonkey323.github.io/project1/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="redesign.png"
+            alt="Redesign"
+            loading="lazy"
+            class="project-pic"
+            width="225"
+            height="150"
+          />
+          <h3 class="project-title">Wikipedia Redesign</h3>
+          <p class="project-details">
+            This Wikipedia redesign
+            helped solve problems of usability and efficiency. Examples included 
+            overwhelming text, non-contrasting colors, and lack of alternative text
+            for images.
+          </p>
+          <a href="https://chunkymonkey323.github.io/project2/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+    <br><br>
+
+    <section class="hero" id="about">
+        <img
+        src="development.png"
+        alt="development"
+        loading="lazy"
+        class="hero-img"
+      />
+     
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">More about World Cup Flags Shop</h2>
+        <p class="bio-text">
+          For this project, I decided to make a column for each relevant section: filters,
+         sorting, items, cart. I made these titles the biggest to indicate that 
+         there were 4 main sections. From there, the items column/section had flags
+          with relevant details that were in a smaller font size to indicate a lower 
+          status. Finally, I used contrast within the add and remove button for
+           each item. Lastly, I decided to frame the cart as one with the items 
+           and price along with a reset button.
+           <br><br>
+
+        For my application, I decided to use states to keep track of the type of
+         items to be displayed, the cart of items, the price of the cart, and whether
+          the items should be sorted. I also defined helpers such as: removeFromCart, 
+          updateCart, and a comparator function. Overall, I was able to get comfortable
+          with the React framework.
+        </p>
+      </div>
+    </section>
+    <br><br>
+    <section class="hero" id="about">
+        <img
+        src="sketch.png"
+        alt="Yhangry"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">More about Yhangry</h2>
+        <p class="bio-text">
+          Although the start-up, yhangry, had their own website, this design was not
+          influnced by them. Instead, a series of brainstorms and sketches led to the
+          design. Specifically, it was decided to start the home page with a button called "Book a Chef"
+           that would take one to the Chef Selection page. Upon reaching this page, 
+           it would prompt one to fill out a filter criteria,
+            then the appropriate chefs would appear. Lastly, a nav bar was added
+            to help users navigate quickly from the home page, chef selection page,
+             and bookings page.
+             <br><br>
+             In addition to the design process, the user testing was also a success. 
+             By using a third party site, I was able to see the strengths and flaws 
+             of our design. This helped us modify and perfect our app.
+             <a href="https://chunkymonkey323.github.io/iterative/">
+              <p>Check it out here!</p>
+             </a>
+        </p>
+      </div>
+    </section>
+    <br><br>
+    <section class="hero" id="about">
+      <img
+        src="story.png"
+        alt="CVS User Experience"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">More about CVS Interface EXP</h2>
+        <p class="bio-text">
+          In this project, I interviewed users of the CVS self checkout to better
+          understand how they approached a familiar or new interface. Here, the focus
+          was consumers since self checkouts are not only found at CVS.
+          The takeaways from this assignment was learning how to ask effective 
+          questions to gain insight into the user's beliefs and rationale. By creating 
+          personas, it deepened the understanding of different types of users and how 
+          their needs could be met. Especially for accesibility reasons.
+        </p>
+      </div>
+    </section>
+    <br><br>
+    <section class="hero" id="about">
+        <img
+        src="frame.png"
+        alt="Wikipedia Redesign"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">More about Wikipedia Redesign</h2>
+        <p class="bio-text">
+        In this Wikipedia redesign, problems that arose included: overwhelming
+        amount of information, contents page in the middle made navigation difficult,
+        a lack of alternative text for when images cannot be produced. Although many
+        others have proposed a redesign for Wikipedia, the approach I took was making
+        it accessible for those who may have problems with sight. 
+        <br><br>
+        In the design, I decided to have a navbar at the top so that the user could
+        explore the search function, language translation, and other options. Then, I added
+        the contents page on the left side and had it fixed so that a user can navigate to 
+        any relevant section without having to scroll back up to navigate.
+        <br><br>
+        Overall, I learned how hard it is to redesign a website since you must account for
+        all intended users. In general the tradeoff I made was prioritizing users who had 
+        issues with sight.
+        <br><br>
+            Here you can find the sketches of the redesign.
+             <a href="https://chunkymonkey323.github.io/pj2/">
+              <p>Check it out here!</p>
+             </a>
+        </p>
+      </div>
+    </section>
+
+
+  </body>
+</html>
